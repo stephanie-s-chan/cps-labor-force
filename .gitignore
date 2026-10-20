@@ -1,0 +1,32 @@
+# Data files (large binaries)
+data/
+data/raw/*.dat
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.parquet
+data/processed/*.feather
+data/processed/*.h5
+data/processed/*.pkl
+
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS artifacts
+.DS_Store
+Thumbs.db
